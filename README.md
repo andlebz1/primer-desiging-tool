@@ -20,6 +20,6 @@ A Python tool to design **forward and reverse primers** from a DNA sequence. Cal
 
 ### Example
 ```python
-dna_sequence = "ATGCGTACGTTAGCTAGCTAGCTAGCTGACTGATCGATCG"
+dna_sequence = "ATGCGTACGTTAGCTAGCTAGCTAGCTCTGATCGATCG"
 result = design_primers(dna_sequence)
 print(result)
